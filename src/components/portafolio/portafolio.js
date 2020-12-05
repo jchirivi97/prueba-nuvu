@@ -8,11 +8,11 @@ class Portafolio extends React.Component{
             <div className="card flotante m-3" style={{borderRadius:"20px",width:"327px",height:"229px"}}>
                 <div className="row p-1">
                     <div className="col-6" style={{top:"20px",left:"20px"}}>
-                        <img src={'images/fondo.jpg'} style={{width:"120px",height:"120px"}}></img>
+                        <img src={'/images/fondo.jpg'} style={{width:"120px",height:"120px"}}></img>
                     </div>
                     <div className="col-6">
                         <div className="mt-4">
-                            <img  src={'images/logo.png'} style={{width:"85px"}}></img>
+                            <img  src={'/images/logo.png'} style={{width:"85px"}}></img>
                             <span className="infoPorcentaje col-2">15%</span>
                             <p style={{fontSize:"12px",color:"#58506B"}}>FIC Old Mutual Efecto</p>
                         </div>
